@@ -1,0 +1,24 @@
+{
+  "name": "arquiteturalrest",
+  "version": "1.0.0",
+  "description": "Microservice criado para estudos",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p .",
+    "dev": "ts-node-dev --respawn --transpile-only ./dist/index.js"
+  },
+  "author": "Luiz Claudio Dias Gomes  === Innovvatio",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.11",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0"
+  }
+}
